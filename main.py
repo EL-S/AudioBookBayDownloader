@@ -42,12 +42,12 @@ def save_history():
 
 def download_link(download_url):
     try:
-        if not settings['silent']:
-            print(download_url)
         response = requests.get(download_url, headers=headers)
         torrent_data = response.content
         with open(settings['directory']+response.headers['Content-Disposition'].split("=")[1].strip('"'), "wb") as file:
             file.write(torrent_data)
+        if not settings['silent']:
+            print(download_url)
         history.append(download_url)
     except KeyError:
         print("Did you forget to add your login_token in the config?")
