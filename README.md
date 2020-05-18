@@ -19,6 +19,7 @@ Considering the following features:
 * Automatic folder sorting
 * Progress bars
 * Test if login token works before a scan
+* Option between magnet and torrent file in the config
 
 Here is an example config (all fields are required):
 
