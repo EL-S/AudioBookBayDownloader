@@ -18,6 +18,7 @@ Considering the following features:
 * Threading
 * Automatic folder sorting
 * Progress bars
+* Test if login token works before a scan
 
 Here is an example config (all fields are required):
 
