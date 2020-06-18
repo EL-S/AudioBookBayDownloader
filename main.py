@@ -37,7 +37,7 @@ def save_history():
                 download_url = download_url.strip()
                 file.write(download_url+"\n")
     except Exception as e:
-        print(e,"error saving dumping history")
+        print(e,"error saving, dumping history")
         print(history)
 
 def download_link(download_url):
