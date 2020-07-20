@@ -23,36 +23,36 @@ Considering the following features:
 
 Here is an example config (all fields are required):
 
-* directory:Torrents/
-* login_token:your token here (get it from browser cookies)
-* base_url:http://audiobookbay.nl
-* avoid_duplicates:True
-* user_agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
-* categories:litrpg,postapocalyptic
-* tags:english
-* search_terms:a
-* search_extras:&cat=36021%2C-121
-* auto_run:True
-* wait_time:3600
-* torrent_list:list.txt
-* silent:False
+directory:Torrents/
+login_token:your token here (get it from browser cookies)
+base_url:http://audiobookbay.nl
+avoid_duplicates:True
+user_agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+categories:litrpg,postapocalyptic
+tags:english
+search_terms:a
+search_extras:&cat=36021%2C-121
+auto_run:True
+wait_time:3600
+torrent_list:list.txt
+silent:False
 
 The wait time is in seconds.
 I recommend not using the search terms at all unless you understand the inclusion and exclusion extras, use the following below for a specific category:
 
-* directory:Torrents/
-* login_token:your token here (get it from browser cookies)
-* base_url:http://audiobookbay.nl
-* avoid_duplicates:True
-* user_agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
-* categories:litrpg
-* tags:
-* search_terms:
-* search_extras:
-* auto_run:True
-* wait_time:3600
-* torrent_list:list.txt
-* silent:False
+directory:Torrents/
+login_token:your token here (get it from browser cookies)
+base_url:http://audiobookbay.nl
+avoid_duplicates:True
+user_agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+categories:litrpg
+tags:
+search_terms:
+search_extras:
+auto_run:True
+wait_time:3600
+torrent_list:list.txt
+silent:False
 
 Currently tags, search_terms and categories are all handled separately, but it is possible I might add a custom url and url formatter as an option.
 
