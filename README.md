@@ -23,6 +23,7 @@ Considering the following features:
 
 Here is an example config (all fields are required):
 
+```
 directory:Torrents/
 login_token:your token here (get it from browser cookies)
 base_url:http://audiobookbay.nl
@@ -36,10 +37,12 @@ auto_run:True
 wait_time:3600
 torrent_list:list.txt
 silent:False
+```
 
 The wait time is in seconds.
 I recommend not using the search terms at all unless you understand the inclusion and exclusion extras, use the following below for a specific category:
 
+```
 directory:Torrents/
 login_token:your token here (get it from browser cookies)
 base_url:http://audiobookbay.nl
@@ -53,6 +56,7 @@ auto_run:True
 wait_time:3600
 torrent_list:list.txt
 silent:False
+```
 
 Currently tags, search_terms and categories are all handled separately, but it is possible I might add a custom url and url formatter as an option.
 
